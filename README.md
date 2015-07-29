@@ -7,8 +7,16 @@ WebBlock jQuery Plugin was made for one of my project to display an alert just l
 
 ###Installation and Usage
 
-Before you begin, you need to install to your html the jQuery library. New version will do.
+####The jQuery Library
+Before you begin, you need to install the jQuery library into your HTML code. New versions will do.
 
-```
+```html
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 ```
+
+Next, place the web blocker plugin right after the jQuery library:
+
+```html
+<script type="text/javascript" src="path/js/WebBlock.js"></script>
+```
+
