@@ -7,4 +7,8 @@ WebBlock jQuery Plugin was made for one of my project to display an alert just l
 
 ###Installation and Usage
 
+Before you begin, you need to install to your html the jQuery library. New version will do.
 
+```
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+```
