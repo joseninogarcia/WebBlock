@@ -28,4 +28,11 @@ In this demonstration, I create a button that once I clicked this, it will show 
  <input type="button" name="blocker" value="Start Blocking" id="blocker" />
 ```
 
+####Use the plugin together with the identifier
+
+```javascript
+$(document).ready(function(){
+   $.BlockHTML({});
+});
+```
 
