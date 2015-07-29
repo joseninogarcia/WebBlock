@@ -33,7 +33,9 @@ In this demonstration, I create a button that once I clicked this, it will show 
 ```javascript
 $(document).ready(function(){
   $("#blocker").click(function(){
-        $.BlockHTML({});
+        $.BlockHTML({
+          message : $("div"),
+        });
   });
 });
 ```
@@ -47,4 +49,6 @@ Below are the properties of the web blocker. You can use them to change the prop
 | message     | This is where you place the output of the blocker. The moment you set a value for this then you can see the output. Example: message : $("#div") | 
 | containerHeight      | Sets the height of the container for the output.      |
 | containerWidth | Sets the width of the container for the output.       |
+| backColor | There are 3 types of background colors for the background: (a) light-black (b) light-green (c) light-blue |
+| backgroundOpacity | Change the opacity of the background. Value should be from .1 - .9 |
 
