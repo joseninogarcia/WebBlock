@@ -32,7 +32,9 @@ In this demonstration, I create a button that once I clicked this, it will show 
 
 ```javascript
 $(document).ready(function(){
-   $.BlockHTML({});
+  $("#blocker").click(function(){
+        $.BlockHTML({});
+  });
 });
 ```
 
