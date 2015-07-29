@@ -44,7 +44,7 @@ Below are the properties of the web blocker. You can use them to change the prop
 
 | Property Name        | Description        |
 | ------------- |:-------------:|
-| col 3 is      | right-aligned | 
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+| message     | This is where you place the output of the blocker. The moment you set a value for this then you can see the output. Example: message : $("#div") | 
+| containerHeight      | Sets the height of the container for the output.      |
+| containerWidth | Sets the width of the container for the output.       |
 
