@@ -38,3 +38,13 @@ $(document).ready(function(){
 });
 ```
 
+####Web Blocker Properties
+
+Below are the properties of the web blocker. You can use them to change the properties of the blocker.
+
+| Property Name        | Description        |
+| ------------- |:-------------:|
+| col 3 is      | right-aligned | 
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
+
