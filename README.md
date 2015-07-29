@@ -35,6 +35,10 @@ $(document).ready(function(){
   $("#blocker").click(function(){
         $.BlockHTML({
           message : $("div"),
+          containerHeight: 250,
+          containerWidth: 300,
+          backColor: "light-blue",
+          backgroundOpacity : .5
         });
   });
 });
@@ -50,5 +54,5 @@ Below are the properties of the web blocker. You can use them to change the prop
 | containerHeight      | Sets the height of the container for the output.      |
 | containerWidth | Sets the width of the container for the output.       |
 | backColor | There are 3 types of background colors for the background: (a) light-black (b) light-green (c) light-blue |
-| backgroundOpacity | Change the opacity of the background. Value should be from .1 - .9 |
+| backgroundOpacity | Change the opacity of the background. Value should be from .1 to .9 |
 
