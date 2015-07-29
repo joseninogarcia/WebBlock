@@ -56,3 +56,7 @@ Below are the properties of the web blocker. You can use them to change the prop
 | backColor | There are 3 types of background colors for the background: (a) light-black (b) light-green (c) light-blue |
 | backgroundOpacity | Change the opacity of the background. Value should be from .1 to .9 |
 
+####Browser Compatibility
+
+All New Browsers only. It is not working in IE8 below.
+
