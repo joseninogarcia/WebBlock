@@ -56,6 +56,28 @@ Below are the properties of the web blocker. You can use them to change the prop
 | backColor | There are 3 types of background colors for the background: (a) light-black (b) light-green (c) light-blue |
 | backgroundOpacity | Change the opacity of the background. Value should be from .1 to .9 |
 
+####Unblocking the web page
+
+To unblock the user interface, you can attach it through an event handler either on document ready or from the markup. See below examples:
+
+#####Markup
+
+```html
+ <input type="button" value="unblock" onclick="$.UnBlockHTML();" />
+```
+
+#####jQuery
+
+```html
+ $(document).ready(function () {
+       $("#blocker").click(function () {
+           $.BlockHTML({
+               $.UnBlockHTML();
+           });
+       });
+   });
+```
+
 ####Browser Compatibility
 
 All New Browsers only. It is not working in IE8 below.
