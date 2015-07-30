@@ -68,7 +68,7 @@ To unblock the user interface, you can attach it through an event handler either
 
 #####jQuery
 
-```html
+```javascript
  $(document).ready(function () {
        $("#blocker").click(function () {
            $.BlockHTML({
